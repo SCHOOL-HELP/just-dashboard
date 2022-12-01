@@ -1,6 +1,6 @@
 
 # Prodigy Online Dashboard
-[Live website](https://prodigy-dashboard.hostedposted.com/)
+[Live website](/)
 
 Prodigy Online Dashboard is an online application to hack [Prodigy](https://prodigygame.com).
 
