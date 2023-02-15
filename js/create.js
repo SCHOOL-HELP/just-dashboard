@@ -49,5 +49,8 @@ async function tokenify (username, password) {
             }
         }
     )
-
+    const data = await response.text()
+    if (data.startsWith("Internal")) return false
+    if (!response.ok) return "BadRequest"
+    return JSON.parse(data)
 }
